@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(transparent.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    color:white;
+    position: absolute;
+    top: 34%;
+    left: 40%;
+}
+.container h1{
+    font-size: 35px;
+    border-bottom: 5px solid rgb(212, 32, 212);
+    margin-bottom: 40px;
+    padding: 15px 0;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.box{
+    width: 100%;
+     border-bottom: 2px solid rgb(147, 92, 147);
+    margin: 27px 0px;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+}
+.box input{
+    width: 75%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 4px 11px;
+    background: none;
+    color: white;
+    font-family: 'Tiro Bangla', serif;
+    
+    
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 18%;
+    margin: 12px 0;
+    padding: 4px;
+    border-radius: 15px;
+    border: 2px solid purple;
+    font-size: 18px;
+    background: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Tiro Bangla', serif;
+}
+.btn:hover{
+    font-family: 'Tiro Bangla', serif;
+    background: white;
+    color: purple;
+    opacity: 0.5;
+    
+
+}
